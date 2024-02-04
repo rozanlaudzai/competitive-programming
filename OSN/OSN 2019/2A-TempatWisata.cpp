@@ -11,9 +11,13 @@ OSN 2019
 using namespace std;
 
 signed main() {
+  ios_base::sync_with_stdio(false); cin.tie(nullptr);
+  
   int n, m;
   cin >> n >> m;
+  
   vector<int> a(n), b(n), c(n), d(n);
+  
   for (int i = 0; i < n; ++i) {
     cin >> a[i] >> b[i];
     c[i] = a[i];
