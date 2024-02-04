@@ -1,6 +1,6 @@
 /*
 
-Final Olimpiade Al Azhar 2024
+Final Olimpiade Sains Al Azhar 2024
 E. Mengamati Semut
 
 */
