@@ -42,6 +42,8 @@ int dfs(int x, int y, int last) { // right: 0, down: 1
 }
 
 int main() {
+  ios_base::sync_with_stdio(false); cin.tie(nullptr);
+
   memset(dp, -1, sizeof dp);
 
   cin >> n >> m;
@@ -51,7 +53,9 @@ int main() {
       cin >> a[i][j];
     }
   }
+
   int ans = mx;
+  
   if (a[1][2] == '.') {
     ans = dfs(1, 2, 0);
   }
@@ -59,5 +63,5 @@ int main() {
     ans = min(ans, dfs(2, 1, 1));
   }
 
-  printf("%d\n", ans);
+  cout << ans << '\n';
 }
