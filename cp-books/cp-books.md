@@ -1,0 +1,3 @@
+- Competitive Programmer's Handbook by Antti Laaksonen (English): https://cses.fi/book.pdf
+
+- Pemrograman Kompetitif Dasar by William Gozali & Alham Fikri Aji (Bahasa Indonesia): https://osn.toki.id/arsip/download-pkd
