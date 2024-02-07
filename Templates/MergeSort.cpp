@@ -5,36 +5,37 @@ void merge(vector<int> &left, vector<int> &right, vector<int> &arr) {
 
   int i = 0, l = 0, r = 0;
 
-  while(l < left.size() && r < right.size()) {
-    if(left[l] > right[r]) {
+  while (l < left.size() && r < right.size()) {
+    if (left[l] > right[r]) {
       arr[i++] = right[r++];
-    }
-    else {
+    } else {
       arr[i++] = left[l++];
     }
   }
 
-  while(l < left.size()) {
+  while (l < left.size()) {
     arr[i++] = left[l++];
   }
-  while(r < right.size()) {
+  
+  while (r < right.size()) {
     arr[i++] = right[r++];
   }
 
 }
 
 void mergeSort(vector<int> &arr) {
-  if(arr.size() <= 1) {
+  if (arr.size() <= 1) {
     return;
   }
   vector<int> left, right;
 
   int m = arr.size() / 2;
 
-  for(int i = 0; i < m; ++i) {
+  for (int i = 0; i < m; ++i) {
     left.push_back(arr[i]);
   }
-  for(int i = m; i < arr.size(); ++i) {
+  
+  for (int i = m; i < arr.size(); ++i) {
     right.push_back(arr[i]);
   }
 
