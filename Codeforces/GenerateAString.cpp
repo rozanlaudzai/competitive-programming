@@ -1,3 +1,5 @@
+// 710E - Generate a String
+
 #include <bits/stdc++.h>
 using namespace std;
 
