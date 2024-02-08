@@ -11,7 +11,7 @@ void upd(int idx, int val) {
   }
 }
 
-int sum(int idx) { // from index 1 until idx
+int sum(int idx) { // 1-based index
   int res = 0;
   while (idx > 0) {
     res += a[idx];
