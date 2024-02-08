@@ -7,7 +7,7 @@ const int maxn = 2e5 + 5;
 int n, a[maxn];
 
 void upd(int idx, int val) {
-  while (idx <= n) {
+  while (idx < maxn) {
     a[idx] += val;
     idx += idx & -idx;
   }
