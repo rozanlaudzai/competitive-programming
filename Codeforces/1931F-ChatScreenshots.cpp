@@ -66,7 +66,6 @@ void solve() {
     }
   }
 
-  int cnt = 0;
   queue<int> q;
   UFOR (i, 1, n) {
     if (!kel[i]) {
