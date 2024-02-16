@@ -56,7 +56,7 @@ void solve() {
   reverse(all(s));
   s = " " + s;
 
-  vector<int> dp(n + 1, 1);
+  int dp[n + 1];
 
   auto upd = [&](int i) {
     if (i * 2 > n) {
