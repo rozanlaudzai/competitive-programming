@@ -1,3 +1,5 @@
+// the update process only changes l with (l - 1) and r with (r+1)
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -39,12 +41,6 @@ using namespace std;
 const int mxn1 = 1e5 + 10, mxn2 = 2e5 + 10, mod = 1e9 + 7, inf = 1000000000000000001;
 const int dx[] = {1, 0, -1, 0, 1, -1, 1, -1}, dy[] = {0, 1, 0, -1, 1, -1, -1, 1};
 const double PI = acos(-1);
-
-/*
-
-ketika upd, yg berdampak hanya l - 1 dan r + 1
-
-*/
 
 int n, q, x, l, r, a[500005], t[2000005];
 string s;
