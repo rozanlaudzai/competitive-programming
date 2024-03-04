@@ -1,4 +1,5 @@
 // Segment Tree Range Minimum Query
+// 1-based indexing
 
 #include <bits/stdc++.h>
 using namespace std;
