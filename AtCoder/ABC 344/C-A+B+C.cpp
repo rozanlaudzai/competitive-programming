@@ -42,7 +42,7 @@ const int mxn1 = 1e5 + 10, mxn2 = 2e5 + 10, mxn3 = 3e5 + 10, mod = 1e9 + 7, inf 
 const int dx[] = {1, 0, -1, 0, 1, -1, 1, -1}, dy[] = {0, 1, 0, -1, 1, -1, -1, 1};
 const double PI = acos(-1);
 
-unordered_map<int, int> vis;
+unordered_map<int, bool> vis;
 int n, m, l, x, q, a[105], b[105], c[105];
 
 void solve() {
