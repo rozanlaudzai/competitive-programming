@@ -1,4 +1,4 @@
-// prefix all the possible sum
+// prefix all the possible sums
 
 #include <bits/stdc++.h>
 using namespace std;
