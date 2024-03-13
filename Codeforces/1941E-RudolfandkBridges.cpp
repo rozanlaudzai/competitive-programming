@@ -1,5 +1,5 @@
 // dp[i][j] = a[i][j] + minimum_dp_from_(j - d)_until_(j - 1)
-// use segtree for the find the minium_dp
+// use segtree to find the minium_dp
 
 #include <bits/stdc++.h>
 using namespace std;
