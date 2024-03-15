@@ -1,4 +1,4 @@
-// classic dp knapsack with linear check for the string
+// classic dp knapsack with a linear check for the string
 
 #include <bits/stdc++.h>
 using namespace std;
