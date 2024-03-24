@@ -29,14 +29,14 @@ using namespace std;
 #define cmin(a, b) a = min(a, b)
 #define cmax(a, b) a = max(a, b)
 #define mems(arr, a) memset(arr, a, sizeof arr)
-#define db(x) cout << ">>> " << #x << " -> " << (x) << '\n'
+#define db(x) cerr << ">>> " << #x << " -> " << (x) << '\n'
 
 #define FOR(i, a, n) for (int i = a; i < (n); ++i)
 #define UFOR(i, a, n) for (int i = a; i <= (n); ++i)
 #define RFOR(i, a, n) for (int i = a; i >= (n); --i)
 #define each(i, arr) for (auto &i : arr)
 
-const int mxn1 = 1e5 + 10, mxn2 = 2e5 + 10, mod = 1e9 + 7, inf = 1000000000000000001;
+const int mxn1 = 1e5 + 10, mxn2 = 2e5 + 10, mxn3 = 3e5 + 10, mod = 1e9 + 7, inf = 1000000000000000001;
 const int dx[] = {1, 0, -1, 0, 1, -1, 1, -1}, dy[] = {0, 1, 0, -1, 1, -1, -1, 1};
 const double PI = acos(-1);
 
