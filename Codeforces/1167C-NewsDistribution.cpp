@@ -42,12 +42,6 @@ const int mxn1 = 1e5 + 10, mxn2 = 2e5 + 10, mxn3 = 3e5 + 10, mod = 1e9 + 7, inf 
 const int dx[] = {1, 0, -1, 0, 1, -1, 1, -1}, dy[] = {0, 1, 0, -1, 1, -1, -1, 1};
 const double PI = acos(-1);
 
-/*
-
-
-
-*/
-
 int n, m, k, l, r, par[500005], cnt[500005];
 
 int find(int x) {
