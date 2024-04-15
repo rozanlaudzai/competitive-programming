@@ -2,6 +2,7 @@
 using namespace std;
 
 #define int long long
+#define ld long double
 #define fi first
 #define se second
 #define mp make_pair
@@ -38,7 +39,7 @@ using namespace std;
 
 const int mxn1 = 1e5 + 10, mxn2 = 2e5 + 10, mxn3 = 3e5 + 10, mod = 1e9 + 7, inf = 1000000000000000001;
 const int dx[] = {1, 0, -1, 0, 1, -1, 1, -1}, dy[] = {0, 1, 0, -1, 1, -1, -1, 1};
-const double PI = acos(-1);
+const ld PI = acos(-1);
 
 /*
 
