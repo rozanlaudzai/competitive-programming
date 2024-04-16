@@ -1,4 +1,4 @@
-- Visual Studio Code (Text Editor): https://code.visualstudio.com
-- MinGW (C/C++ Compiler): https://www.mingw-w64.org/downloads/#mingw-builds
-- VSCode C/C++ Extension: https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
+- Visual Studio Code as a Code Editor: https://code.visualstudio.com
+- MinGW as a C/C++ Compiler: https://www.mingw-w64.org/downloads/#mingw-builds
+- VSCode C/C++ Extension as an IntelliSense, Debugger, etc.: https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
 - Graph Editor: https://csacademy.com/app/graph_editor
