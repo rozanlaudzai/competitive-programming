@@ -2,6 +2,7 @@
 using namespace std;
 
 #define int long long
+#define ll long long
 #define ld long double
 #define fi first
 #define se second
@@ -37,7 +38,10 @@ using namespace std;
 #define RFOR(i, a, n) for (int i = a; i >= (n); --i)
 #define each(i, arr) for (auto &i : arr)
 
-const int mxn1 = 1e5 + 10, mxn2 = 2e5 + 10, mxn3 = 3e5 + 10, mod = 1e9 + 7, inf = 1000000000000000001;
+typedef pair<int, int> pii;
+typedef tuple<int, int, int> iii;
+
+const int mxn = 2e5 + 10, mod = 1e9 + 7, inf = 1000000000000000001;
 const int dx[] = {1, 0, -1, 0, 1, -1, 1, -1}, dy[] = {0, 1, 0, -1, 1, -1, -1, 1};
 const ld PI = acos(-1);
 
@@ -52,13 +56,14 @@ void solve() {
 }
 
 signed main() {
-  ios_base::sync_with_stdio(false); cin.tie(nullptr);
+  ios_base::sync_with_stdio(false);
+  cin.tie(nullptr);
 
-  // int x = 1;
-  // int tc; cin >> tc; while (tc--)
-  // {
-  // cout << "Case #" << x++ << ": ";
-  solve();
-  // }
+  int tc = 1;
+  // cin >> tc;
+  for (int x = 1; x <= tc; ++x) {
+    // cout << "Case #" << x << ": ";
+    solve();
+  }
 
 }
