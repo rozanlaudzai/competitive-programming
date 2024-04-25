@@ -6,6 +6,8 @@ using namespace std;
 
 /*
 
+(Bahasa Indonesia)
+
 -011???0111
 ^ ^^
 
