@@ -1,4 +1,4 @@
-- [Visual Studio Code](https://code.visualstudio.com) and [Helix Editor](https://helix-editor.com) as a Text Editor
+- Text Editors: [Visual Studio Code](https://code.visualstudio.com) and [Helix Editor](https://helix-editor.com)
 - [MinGW](https://www.mingw-w64.org/downloads/#mingw-builds) as a C/C++ Compiler
 - [VSCode C/C++ Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) as an IntelliSense, Debugger, etc.
 - [Graph Editor](https://csacademy.com/app/graph_editor)
