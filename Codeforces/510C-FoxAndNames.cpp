@@ -7,7 +7,7 @@ using namespace std;
 /*
 
 - toposort
-- sensitive case: all characters are the same but differ in length
+- corner case: all characters are the same but differ in length
 
 */
 
