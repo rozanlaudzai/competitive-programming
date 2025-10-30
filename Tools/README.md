@@ -1,4 +1,5 @@
-- Text Editors: [Visual Studio Code](https://code.visualstudio.com) and [Helix Editor](https://helix-editor.com)
-- [MinGW](https://www.mingw-w64.org/downloads/#mingw-builds) as a C/C++ Compiler
+- Text Editors: [Visual Studio Code](https://code.visualstudio.com) and [Neovim](https://neovim.io/)
+- Ubuntu C/C++ Compiler: Run this command `sudo apt-get install build-essential gdb`
+- Windows C/C++ Compiler: [MinGW](https://www.mingw-w64.org/downloads/#mingw-builds)
 - [VSCode C/C++ Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) as an IntelliSense, Debugger, etc.
 - [Graph Editor](https://csacademy.com/app/graph_editor)
